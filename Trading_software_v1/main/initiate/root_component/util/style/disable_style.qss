@@ -1,0 +1,45 @@
+QWidget {
+        background-color: #252525;
+        color: #8d8d8d;
+        border: none;
+        font: 14pt "Nirmala UI";
+}
+QPushButton {
+    background-color: #4d4d4d;
+    border: 1px solid #4d4d4d;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 5px;
+}
+QPushButton#Activation {
+    background-color: #ff0000;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 5px;
+}
+QPushButton#Activation:hover {
+    background-color: #ff6c6c;
+    border: 1px solid #ffffff;
+}
+QPushButton#Activation:pressed {
+    background-color: #aa0000;
+    border: 1px solid #ffffff;
+}
+QCheckBox {
+    color: #4d4d4d;
+}
+QLineEdit {
+    background-color: #252525;
+    border: 1px solid #4d4d4d;
+    color: #8d8d8d;
+    padding: 5px;
+    border-color: #ffffff;
+    border-radius: 6px;
+}
+QTextEdit {
+    background-color: #4d4d4d;
+    border: 1px solid #4d4d4d;
+    color: #ffffff;
+    padding: 5px;
+}

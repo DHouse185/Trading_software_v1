@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>479</width>
+    <height>616</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+        background-color: #333333;
+        color: #ffffff;
+        border: none;
+    }
+    QPushButton {
+        background-color: #4d4d4d;
+        border: 1px solid #4d4d4d;
+        border-radius: 4px;
+        color: #ffffff;
+        padding: 5px;
+    }
+    QPushButton:hover {
+        background-color: #5a5a5a;
+        border: 1px solid #5a5a5a;
+    }
+    QCheckBox {
+        color: #ffffff;
+    }
+    QLineEdit {
+        background-color: #4d4d4d;
+        border: 1px solid #4d4d4d;
+        color: #ffffff;
+        padding: 5px;
+		border-color: #ffffff;
+		border-radius: 6px;
+    }
+    QTextEdit {
+        background-color: #4d4d4d;
+        border: 1px solid #4d4d4d;
+        color: #ffffff;
+        padding: 5px;
+    }
+    QProgressBar {
+        border: 1px solid #444444;
+        border-radius: 7px;
+        background-color: #2e2e2e;
+        text-align: center;
+        font-size: 10pt;
+        color: white;
+    }
+    QProgressBar::chunk {
+        background-color: #3a3a3a;
+        width: 5px;
+    }
+    QScrollBar:vertical {
+        border: none;
+        background-color: #3a3a3a;
+        width: 10px;
+        margin: 16px 0 16px 0;
+    }
+    QScrollBar::handle:vertical {
+        background-color: #444444;
+        border-radius: 5px;
+    }
+    QScrollBar:horizontal {
+        border: none;
+        background-color: #3a3a3a;
+        height: 10px;
+        margin: 0px 16px 0 16px;
+    }
+    QScrollBar::handle:horizontal {
+        background-color: #444444;
+        border-radius: 5px;
+    }
+    QTabWidget {
+        background-color: #2e2e2e;
+        border: none;
+    }
+    QTabBar::tab {
+        background-color: #2e2e2e;
+        color: #b1b1b1;
+        padding: 8px 20px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border: none;
+    }
+ 
+    QTabBar::tab:selected, QTabBar::tab:hover {
+        background-color: #3a3a3a;
+        color: white;
+    }</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit_username">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>451</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_username">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Username</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_password">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_password">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>451</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_login">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>310</y>
+     <width>451</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+        background-color: #007e20;
+        border: 1px solid #4d4d4d;
+        border-radius: 4px;
+        color: #ffffff;
+        padding: 5px;
+}
+QPushButton:hover {
+        background-color: #00c832;
+        border: 1px solid #5a5a5a;
+    }</string>
+   </property>
+   <property name="text">
+    <string>Log in</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

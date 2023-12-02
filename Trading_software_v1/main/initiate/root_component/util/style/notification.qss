@@ -1,0 +1,7 @@
+QLabel {
+    background-color: #4e5564;
+    color: #ffffff;
+    border: none;
+    font: 14pt "Nirmala UI";
+    border-radius: 8px;
+}

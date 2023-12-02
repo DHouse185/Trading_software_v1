@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="button_image">
+    <file>Burger_button_click.png</file>
+    <file>Burger_button_hover.png</file>
+    <file>Burger_button.png</file>
+  </qresource>
+</RCC>
